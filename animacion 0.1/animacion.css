@@ -1,0 +1,109 @@
+.figura{
+    position: absolute;
+    left: 0;
+    height: 8px;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    border: 20px solid orangered;
+    -o-animation: mover 4s ease 0s infinite normal running;
+    -ms-animation: mover 4s ease 0s infinite normal running;
+    -moz-animation: mover 4s ease 0s infinite normal running;
+    -webkit-animation: mover 4s ease 0s infinite normal running;
+}
+.figura1{
+    position: absolute;
+    margin-bottom: 50px;
+    left: 0;
+    height: 8px;
+    padding: 25px;
+   width: 100px;
+    background-color: black;
+    
+    border: 20px solid orangered;
+    -o-animation: mover1 4s ease 0s infinite normal running;
+    -ms-animation: mover1 4s ease 0s infinite normal running;
+    -moz-animation: mover1 4s ease 0s infinite normal running;
+    -webkit-animation: mover1 4s ease 0s infinite normal running;
+}
+.figura2{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 8px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: aqua;
+    border: 20px solid orangered;
+    -o-animation: mover 4s ease 0s infinite normal running;
+    -ms-animation: mover 4s ease 0s infinite normal running;
+    -moz-animation: mover 4s ease 0s infinite normal running;
+    -webkit-animation: mover 4s ease 0s infinite normal running;
+}
+.ejemplo{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    height: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border: 20px solid black:
+    -o-animation: mover2 4s ease 0s infinite normal running;
+    -ms-animation: mover2 4s ease 0s infinite normal running;
+    -moz-animation: mover2 4s ease 0s infinite normal running;
+    -webkit-animation: mover2 4s ease 0s infinite normal running;
+}
+@keyframes mover{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 90%;
+        transform: rotate(1080deg);
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes mover1{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 90%;
+        
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+@keyframes mover2{
+    0%{
+        left: 0%;
+    }
+    25%{
+        top: 10%;
+        left: 90%;
+        transform: rotate(1080deg);
+    }
+    50%{
+        left: 90%;
+        top: 90%;
+        transform: rotate(2160deg);
+    }
+    75%{
+        left: 0%;
+        top: 90%;
+        transform: rotate(3240deg);
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+    }
+    
+}
