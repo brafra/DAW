@@ -1,0 +1,29 @@
+<!doctype html>
+ <html lang="es">
+
+   <head>
+      <meta charset="utf-8"/>
+       <meta name="viewport" content="width=devoce-width,initial-scale=1.0">
+       <meta http-equiv="x-ua-cpmátible" content="ie=edge">
+       
+      <title>Título de la web</title>
+       <script>
+       Function medidas(){
+           
+           var alto =document.body.clientHeight;
+           var ancho = document.body.clientWidth;
+           document.getElementById("tam").innerHTML="<b>alto:</b>"+ alto +"<b>ancho</b>"+ancho;
+           
+       }
+       
+       </script>
+   </head>
+
+   <body onresize="medida();">
+       <div id="tam">
+       
+       </div>
+      Contenido de la web
+   </body>
+
+ </html>
