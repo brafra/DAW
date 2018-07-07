@@ -1,0 +1,14 @@
+primer ejecicio
+
+1.¿Qué evento usaste para poder ejecutar la actualización de tus datos?
+
+document.getElementById y innerHTML
+
+2.¿Qué código se encarga de agregar los elementos en la lista?
+
+<button onclick="agregar()">nombre</button>
+	<button onclick="agregar2()">pasatiempos</button>
+	<button onclick="agregar3()">ciudad</button>
+
+3.¿Qué debería realizar si deseo eliminar los elementos de la lista al realizar un click al listado?
+creo que nada no hay para eliminar 

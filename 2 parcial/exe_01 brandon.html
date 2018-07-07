@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>examen</title>
+	<meta charset="utf-8">
+	<meta name="autor" content="Castro Uc Brandon Francisco " />
+<meta name="matricula" content="1702324" />
+<meta name="grupo" content="TI31" />
+</head>
+<style type="text/css">
+	body{
+		font-family:Helvetica, Arial, Sans-Serif;
+	}
+	.listado{
+		color:#ff0000; 
+	}
+	img{
+		background-size: cover;
+        border-radius: 6px;
+        float: left;
+        opacity: .6;
+        width: 200px;
+        height: 200px;
+       -webkit-transition:all .6s ease;
+}
+  img:hover{
+  opacity: 1;
+  border-radius: 200px;
+  box-shadow: 0px 0px 20px #ddd;
+}
+</style>
+<body>
+	<button onclick="agregar()">nombre</button>
+	<button onclick="agregar2()">que me gusta hacer</button>
+	<button onclick="agregar3()">ciudad</button>
+	<ul>
+		<div class="listado">
+		<li >name: <span id="name"></span></li>
+		<li>favourite: <span id="que me gusta hacer"></span></li>
+		<li>lugar : <span id="ciudad"></span></li>
+        </div>
+    </ul>
+</body>
+<script type="text/javascript">
+    function agregar() {
+        var cont1 = document.getElementById("name");
+        cont1.innerHTML= "castro uc brandon francisco "; 
+    }
+    function agregar2(){
+        var cont2 = document.getElementById("que me gusta hacer");
+        cont2.innerHTML = "cantar y dar clases de musica ";
+    }
+    function agregar3(){
+        var cont3 = document.getElementById("ciudad");
+        cont3.innerHTML = "playa del carmen Quintana Roo";
+    }
+
+</script>
+      <img src="https://media.istockphoto.com/vectors/music-band-group-of-young-rock-musician-vector-id619769264" border="0" width="250px" height="250px">
+    <img src="https://nanaimojazzfest.ca/wp-content/uploads/2017/12/cropped-jazz-word-plus-sax-and-keyboard-1.jpg" border="0" width="250px" height="250px">
+  
+</html>
